@@ -1,2 +1,2 @@
-﻿# 211 Special Blocks
-This mod provide some extra blocks.
+﻿# SpaceEngineers DLC Blocks
+A SpaceEngineers mod that unlock DLC blocks.
