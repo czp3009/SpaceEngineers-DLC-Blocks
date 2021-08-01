@@ -42,15 +42,15 @@
                 <string>CarSmoke</string>
                 <string>CarSmokeSmall</string>
                 <string>ElectricArc</string>
-				<string>ElectricArcSmall</string>
-				<string>Fire</string>
-				<string>FireSmall</string>
-				<string>FireAndSmoke</string>
-				<string>FireAndSmokeSmall</string>
-				<string>Smoke</string>
-				<string>SmokeSmall</string>
-				<string>SmokeElectric</string>
-				<string>SmokeElectricSmall</string>
+                <string>ElectricArcSmall</string>
+                <string>Fire</string>
+                <string>FireSmall</string>
+                <string>FireAndSmoke</string>
+                <string>FireAndSmokeSmall</string>
+                <string>Smoke</string>
+                <string>SmokeSmall</string>
+                <string>SmokeElectric</string>
+                <string>SmokeElectricSmall</string>
                 <string>SmokeReactor</string>
                 <string>SmokeReactorSmall</string>
                 <string>SmokeWhite</string>
@@ -59,7 +59,7 @@
             <RequiredPowerInput>0.0002</RequiredPowerInput>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
-						
+            
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
@@ -121,7 +121,7 @@
             <RequiredPowerInput>0.0002</RequiredPowerInput>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
-			
+            
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -201,7 +201,7 @@
             </RaycastOffset>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
-			
+            
         </Definition>
 
         <Definition>
@@ -230,7 +230,7 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.35" />
                 <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1.0" />
-				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
             </MountPoints>
@@ -246,7 +246,7 @@
             <PCU>1</PCU>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -273,7 +273,7 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.35" />
                 <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1.0" />
-				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
             </MountPoints>
@@ -289,7 +289,7 @@
             <PCU>1</PCU>
             
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -375,9 +375,9 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -458,9 +458,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -544,9 +544,9 @@
             <IsAirTight>false</IsAirTight>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -627,9 +627,9 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -708,9 +708,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -791,9 +791,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -879,9 +879,9 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -962,9 +962,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -1047,9 +1047,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -1130,9 +1130,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -1211,9 +1211,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-                
+
         <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
             <Id>
                 <TypeId>MotorSuspension</TypeId>
@@ -1294,9 +1294,9 @@
             <PCU>50</PCU>
             <Public>true</Public>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1361,9 +1361,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1428,9 +1428,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1495,9 +1495,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1563,9 +1563,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1631,9 +1631,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1699,9 +1699,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1766,9 +1766,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1833,9 +1833,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1883,7 +1883,7 @@
             <DeformationRatio>0.3</DeformationRatio>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            <MirroringBlock>OffroadSmallRealWheel5x5</MirroringBlock>            
+            <MirroringBlock>OffroadSmallRealWheel5x5</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <Public>false</Public>
             <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -1900,9 +1900,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -1968,9 +1968,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2036,9 +2036,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-                
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2104,9 +2104,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2172,9 +2172,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-                
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2239,9 +2239,9 @@
             <IsAirTight>false</IsAirTight>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-                
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2306,9 +2306,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2372,9 +2372,9 @@
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2439,9 +2439,9 @@
             <PCU>25</PCU>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
-        </Definition>
             
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>Wheel</TypeId>
@@ -2505,7 +2505,7 @@
             <PCU>25</PCU>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
-			
+            
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -2596,7 +2596,7 @@
             <RequiredPowerInput>0.0002</RequiredPowerInput>
             <Flare>SpotlightSmall</Flare>
             <ReflectorThickness>2.5</ReflectorThickness>
-            <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+            <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
             <ReflectorConeDegrees>52</ReflectorConeDegrees>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -2646,7 +2646,7 @@
             <PCU>1</PCU>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -2674,18 +2674,18 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>3</BuildTimeSeconds>
             <MountPoints>
-               <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" PropertiesMask="2" />
-               <MountPoint Side="Back" StartX="0.0" StartY="0.9" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-               <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
-               <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
-               <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
-               <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
-               <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-               <MountPoint Side="Right" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
-               <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
-               <MountPoint Side="Right" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
-               <MountPoint Side="Right" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
-               <MountPoint Side="Right" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.0" StartY="0.9" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
             </MountPoints>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2693,7 +2693,7 @@
             <PCU>1</PCU>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -2721,20 +2721,20 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>3</BuildTimeSeconds>
             <MountPoints>
-              <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
-              <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" ExclusionMask="1" />
-              <MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.8" PropertiesMask="2" ExclusionMask="1" />
-              <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+                <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" ExclusionMask="1" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.8" PropertiesMask="2" ExclusionMask="1" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
             </MountPoints>
-              <MirroringX>YMinusHalfX</MirroringX>
-              <MirroringY>HalfX</MirroringY>
-              <MirroringZ>MinusHalfX</MirroringZ>
+            <MirroringX>YMinusHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
             <IsAirTight>false</IsAirTight>
             <PCU>1</PCU>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -2762,25 +2762,25 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>3</BuildTimeSeconds>
             <MountPoints>
-              <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
-              <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
-              <MountPoint Side="Front" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
-              <MountPoint Side="Front" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
-              <MountPoint Side="Front" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
-              <MountPoint Side="Left" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
-              <MountPoint Side="Bottom" StartY="0.0" StartX="1.0" EndY="0.2" EndX="0.8" PropertiesMask="2" />
-              <MountPoint Side="Bottom" StartY="0.2" StartX="0.8" EndY="0.4" EndX="0.6" PropertiesMask="2" />
-              <MountPoint Side="Bottom" StartY="0.4" StartX="0.6" EndY="0.6" EndX="0.4" PropertiesMask="2" />
-              <MountPoint Side="Bottom" StartY="0.6" StartX="0.4" EndY="0.8" EndX="0.2" PropertiesMask="2" />
-              <MountPoint Side="Bottom" StartY="0.8" StartX="0.2" EndY="1.0" EndX="0.0" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartY="0.0" StartX="1.0" EndY="0.2" EndX="0.8" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartY="0.2" StartX="0.8" EndY="0.4" EndX="0.6" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartY="0.4" StartX="0.6" EndY="0.6" EndX="0.4" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartY="0.6" StartX="0.4" EndY="0.8" EndX="0.2" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartY="0.8" StartX="0.2" EndY="1.0" EndX="0.0" PropertiesMask="2" />
             </MountPoints>
-              <MirroringX>HalfY</MirroringX>
-              <MirroringY>XHalfY</MirroringY>
-              <MirroringZ>MinusHalfY</MirroringZ>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
             <IsAirTight>false</IsAirTight>
             <PCU>1</PCU>
             
@@ -2834,7 +2834,7 @@
             <IsAirTight>false</IsAirTight>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -2883,7 +2883,7 @@
             <IsAirTight>false</IsAirTight>
             
         </Definition>
-        
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -2932,7 +2932,7 @@
             <IsAirTight>false</IsAirTight>
             
         </Definition>
-   
-        
+
+
     </CubeBlocks>
 </Definitions>
