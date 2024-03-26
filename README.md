@@ -1,4 +1,7 @@
-﻿# SpaceEngineers DLC Blocks
+﻿# Deprecated
+Keen added new check to the game, this mod is no longer useful
+
+# SpaceEngineers DLC Blocks
 A SpaceEngineers mod that unlock DLC blocks.
 
 # Workshop
